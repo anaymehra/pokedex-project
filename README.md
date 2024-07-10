@@ -26,5 +26,16 @@ Welcome to the Pokédex Project! This project is a simple web application that a
 3. **Start the server:**
    ```bash
    npm start
-4. **Open the application:**
+4. **Open the application: **
    Open your web browser and go to http://localhost:3000 to view the Pokédex.
+
+## Credits
+
+- *PokeAPI*: Data source for Pokémon information.
+- *FontAwesome*: SVG icons sourced from FontAwesome (https://fontawesome.com/)
+
+## Licence 
+
+- This project is licensed under the MIT License - see the LICENSE(https://opensource.org/license/mit) file for details.
+
+
