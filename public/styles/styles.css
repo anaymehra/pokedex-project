@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.pokedex {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-color: #ff0000;
+    border: 5px solid #000;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adding shadow */
+}
+
+.pokemon-card {
+    width: 300px;
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    border: 5px solid #000;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.pokemon-image {
+    width: 200px; /* Increased size */
+    height: 200px; /* Increased size */
+}
+
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-body h2 {
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: #333;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.card-body p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #666;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.card-body p:first-child {
+    margin-top: 20px;
+}
+
+.card-body p:last-child {
+    margin-bottom: 0;
+}
+.card-footer {
+    text-align: center;
+    padding: 20px;
+    padding-top: 0px;
+}
+.card-footer button {
+    border: 0px;
+    cursor: pointer;
+}
+
+.search-container {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.search-bar {
+    padding: 10px;
+    width: 205px;   
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.search-button {
+    padding: 10px 10px;
+    margin-left: 22px;
+    background-color: #FAB005;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.search-button:hover {
+    background-color: #db9a01;
+}
