@@ -20,4 +20,5 @@ Welcome to the Pokédex Project! This project is a simple web application that a
    ```bash
    git clone https://github.com/anaymehra/pokedex-project/
    cd pokedex-project
-2. **Install Dependencicies:**
+2. **Install Dependencies:**
+   npm install
